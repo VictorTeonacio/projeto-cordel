@@ -35,17 +35,15 @@ header > p {
 header a {
     text-decoration: none;
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 header a:hover {
-    text-decoration: underline;
+    border-bottom: 2px solid white;
 }
 
 section {
-    padding-top: 10vh;
-    padding-bottom: 25vh;
-    padding-left: 30px;
+    padding: 50px;
     font-family: 'Sriracha';
     font-size: 3.0vw;
     line-height: 2em;
@@ -63,10 +61,11 @@ section.imagem {
     box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 47%);
 }
 section.imagem > p {
-    padding: 5px;
+    padding: 20px;
     background-color: rgba(0, 0, 0, 0.514);
     display: inline-block;
     text-shadow: 1px 1px 0px black;
+    border-radius: 20px;
 }
 
 section#img01 {
@@ -81,10 +80,10 @@ section#img02 {
 
 footer {
     background-color: black;
-   text-align: center;
-   color: white;
-   padding: 10px;
-   font-size: 0.90em;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 0.90em;
 }
 
 footer > a {
@@ -95,5 +94,5 @@ footer > a {
 }
 
 footer > a:hover {
-    text-decoration: underline;
+    border-bottom: 2px solid white;
 }
